@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tailwind Demo 2</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-black">
+
+	<!-- Navigation Bar -->
+	<div class="w-full h-16 px-8 py-4 md:px-32 md:py-4 flex justify-between items-center font-sans text-gray-300">
+		<a href="index.html" class="px-0 md:px-4 py-2">MY ROCKSTAR GYM</a>
+		<a href="#contact-us" class="px-4 py-2 bg-green-600 rounded">Contact Us</a>
+	</div>
+
+	<!-- Hero Section -->
+	<div class="w-full h-screen relative px-32 font-sans text-gray-300">
+
+		<img src="images/hero-medium.jpg" alt="" class="pb-16 h-screen absolute right-0 top-0 z-0 object-cover object-center">
+
+        <div class="absolute z-10 top-0 left-4 md:left-36">
+            <div class="h-screen pb-16 flex flex-col items-start md:items-center justify-center">
+
+                <div class="mb-4 md:mb-0 flex justify-start items-center text-sm">
+                    <div class="px-3 py-1 bg-green-600 rounded-full">New</div>
+                    <div class="ml-2">Personal trainers available!</div>
+                </div>
+
+                <div class="my-6 text-4xl hidden md:block">
+                    Stay Healthy. Stay Fit. Stay Lean.
+                </div>
+                <div class="text-3xl md:hidden">
+                    <span class="text-xl">Stay</span> Fit.
+                </div>
+                <div class="text-3xl md:hidden">
+                    <span class="text-xl">Stay</span> Lean.
+                </div>
+                <div class="mb-4 text-3xl md:hidden">
+                    <span class="text-xl">Stay</span> Healthy.
+                </div>
+
+                <a href="#contact-us" class="mt-4 md:mt-0 px-4 py-2 bg-green-600 rounded">Join Now</a>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="flex flex-col justify-center items-center text-gray-300">
+        <p class="text-2xl md:text-4xl">Features</p>
+        <hr class="w-16 h-1.5 mt-2 rounded bg-green-600 border-0">
+    </div>
+
+    <!-- Features Section-->
+    <div class="mt-4 px-4 md:px-36 font-sans text-gray-300">
+
+        <div class="flex flex-col md:flex-row justify-around items-stretch md:items-center">
+            <img src="images/powerlifting.jpg" alt="">
+            <div class="mt-2 md:mt-0 px-4 flex flex-col justify-center items-start">
+                <p class="text-2xl md:text-4xl">Powerlifting</p>
+                <hr class="w-16 h-1.5 mt-2 mb-4 md:mb-6 rounded bg-green-600 border-0">
+                <p class="text-sm text-left">Powerlifting is a strength sport that consists of three attempts at maximal weight on three lifts: squat, bench press, and deadlift.</p>
+            </div>
+        </div>
+
+        <div class="mt-8 md:mt-4 flex flex-col md:flex-row justify-around items-stretch md:items-center md:hidden">
+            <img src="images/body-building.jpg" alt="">
+            <div class="px-4 flex flex-col justify-center items-start md:items-end">
+                <p class="mt-2 md:mt-0 text-2xl md:text-4xl">Muscle Toning</p>
+                <hr class="w-16 h-1.5 mt-2 mb-4 md:mb-6 rounded bg-green-600 border-0">
+                <p class="text-sm text-left md:text-right">Unlike fat, toned muscles look and feel firm when you're not even using them. They appear defined, so there's no question as to whether it's fat or muscle.</p>
+            </div>
+        </div>
+
+        <div class="mt-8 md:mt-4 hidden md:flex flex-col md:flex-row justify-around items-stretch md:items-center">
+            <div class="px-4 flex flex-col justify-center items-start md:items-end">
+                <p class="text-2xl md:text-4xl">Muscle Toning</p>
+                <hr class="w-16 h-1.5 mt-2 mb-4 md:mb-6 rounded bg-green-600 border-0">
+                <p class="text-sm text-left md:text-right">Unlike fat, toned muscles look and feel firm when you're not even using them. They appear defined, so there's no question as to whether it's fat or muscle.</p>
+            </div>
+            <img src="images/body-building.jpg" alt="">
+        </div>
+
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact-us" class="px-4 md:px-36 py-16 flex flex-col items-center justify-center text-gray-300">
+        <p class="text-2xl md:text-4xl">Contact Us</p>
+        <hr class="w-16 h-1.5 mt-2 mb-4 md:mb-6 rounded bg-green-600 border-0">
+        <p class="md:text-xl">A lean physique is just a call away</p>
+        <p class="mt-8 mb-2 text-sm">+91-9873441151</p>
+        <div class="m-2 text-sm text-center">
+            <p>1/16 Chetak Complex</p>
+            <p>Pocket-H Dilshad Garden</p>
+            <p>Delhi - 110095</p>
+        </div>
+    </div>
+    
+
+	<script src="app.js"></script>
+</body>
+
+</html>
